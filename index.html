@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html ng-app="psMovies">
+
+<head>
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>At Movies</title>
+</head>
+
+<body ng-cloak>
+    <movie-app></movie-app>
+   <!-- <nav class="navbar navbar-default navbar-inverse container-fluid">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">At the moviews </a>
+            </div>
+            <ul class="nav navbar-nav navbar-left">
+                <li>
+                    <a href="#/list">List</a>
+                </li>
+                <li>
+                    <a href="#/about">About</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h3>Hello ! </h3>
+        &lt;!&ndash;<movie-list></movie-list>&ndash;&gt;
+        &lt;!&ndash;<ng-view></ng-view>&ndash;&gt;
+    </div>-->
+    <script src="../bower_components/angular/angular.js"></script>
+    <!--<script src="../bower_components/angular-route/angular-route.js"></script>-->
+    <script src="../bower_components/angular-component-router/angular_1_router.js"></script>
+    <script src="./ps-movies/module.js" ></script>
+
+    <script src="./ps-movies/movie-list.component.js" ></script>
+    <script src="./ps-movies/movie-rating.component.js" ></script>
+    <script src="./ps-movies/movie-app.component.js" ></script>
+    <script src="./ps-movies/movie-details.component.js" ></script>
+    <script src="./ps-movies/accordion.component.js" ></script>
+
+</body>
+
+</html>
